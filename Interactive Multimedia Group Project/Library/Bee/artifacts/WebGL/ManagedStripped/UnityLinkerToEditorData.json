@@ -44,7 +44,9 @@
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGame.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -64,8 +66,18 @@
             "icon": null
           },
           {
+            "name": "AudioSource",
+            "scenes": [
+              "Assets/Scenes/MainGame.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "SampleClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/MainGame.unity"
+            ],
             "dependencyType": 1,
             "icon": null
           }
@@ -227,7 +239,8 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/MainGame.unity"
+              "Assets/Scenes/MainGame.unity",
+              "Assets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -235,7 +248,8 @@
           {
             "name": "MeshFilter",
             "scenes": [
-              "Assets/Scenes/MainGame.unity"
+              "Assets/Scenes/MainGame.unity",
+              "Assets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -243,7 +257,8 @@
           {
             "name": "MeshRenderer",
             "scenes": [
-              "Assets/Scenes/MainGame.unity"
+              "Assets/Scenes/MainGame.unity",
+              "Assets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -474,6 +489,12 @@
             "icon": "package/com.unity.modules.jsonserialize"
           },
           {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
+          },
+          {
             "name": "Required by Physics Module",
             "scenes": [],
             "dependencyType": 2,
@@ -569,6 +590,27 @@
         ]
       },
       {
+        "name": "ParticleSystem",
+        "dependencies": [
+          {
+            "name": "ParticleSystem",
+            "scenes": [
+              "Assets/Scenes/MainGame.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "ParticleSystemRenderer",
+            "scenes": [
+              "Assets/Scenes/MainGame.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "Physics",
         "dependencies": [
           {
@@ -588,7 +630,8 @@
           {
             "name": "MeshCollider",
             "scenes": [
-              "Assets/Scenes/MainGame.unity"
+              "Assets/Scenes/MainGame.unity",
+              "Assets/Scenes/Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -658,6 +701,12 @@
             "scenes": [],
             "dependencyType": 2,
             "icon": "package/com.unity.modules.jsonserialize"
+          },
+          {
+            "name": "Required by ParticleSystem Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.particlesystem"
           },
           {
             "name": "Required by Physics Module",

@@ -15,7 +15,7 @@ public class RandomSpawn : MonoBehaviour
         while(true){
             yield return new WaitForSeconds(1);
             int index = Random.Range(0, enemies.Length);
-            Instantiate(enemies[index], new Vector3(Random.Range(-25,25), 0, Random.Range(-25,25)), enemies[index].transform.rotation);
+            Instantiate(enemies[index], new Vector3(Random.Range(-25, 25), 0, Random.Range(-25, 25)), enemies[index].transform.rotation);
         }
     }
 

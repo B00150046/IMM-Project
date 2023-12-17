@@ -17,9 +17,9 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
 
-       // coin = GetComponent<AudioClip>();
+       coin = GetComponent<AudioClip>();
 
-        //speedUp = GetComponent<AudioClip>();
+        speedUp = GetComponent<AudioClip>();
     }
 
     void Update()
