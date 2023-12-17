@@ -4,31 +4,21 @@ using UnityEngine;
 
 public class GameMusic : MonoBehaviour
 {
-    private AudioLoop backgroundMusic;
-    private AudioSource audioSource;
-    // Start is called before the first frame update
-    void Start()
+    public AudioClip startMenu;
+    private AudioSource audio;
+
+    private void Start()
     {
-        if(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name = "MainGame"){
-            backgroundMusic = GetComponent<AudioLoop>();
-            audioSource = GetComponent<AudioSource>();
-            backgroundMusic.Play();
-        }
-        else
-        {
-            backgroundMusic.Stop();
-        }
+    // Start is called before the first frame update
+    
+        audio = gameObject.GetComponent<AudioSource>();
+        //audio.clip = true;
+        //audio.loop = true;
+        //audio.Play();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(GameObject.GetComponentByTag("Jewel")){
-            audioSource.Play();
-        }
-        else
-        {
-            audioSource.Stop();
-        }   
     }
 }

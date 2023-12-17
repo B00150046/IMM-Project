@@ -336,6 +336,7 @@
 "Assets/Scripts/EnemyBehaviour.cs"
 "Assets/Scripts/FollowPlayer.cs"
 "Assets/Scripts/GameMusic.cs"
+"Assets/Scripts/GithubLink.cs"
 "Assets/Scripts/HealthSystem.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/PlayerLife.cs"

@@ -9,6 +9,9 @@ public class HealthSystem : MonoBehaviour
     public int maxhealth = 5;
     public int health;
     public GameObject jem;
+
+    public ParticleSystem explode;
+    public AudioClip gameOver;
     // Start is called before the first frame update
     void Start()
     {
